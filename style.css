@@ -1,3 +1,39 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.unique-color{
+    color: darkorange;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 50px;
+    font-weight: 700;
+    margin: 100px 0px; 
+}
+.link-button:hover{
+    color: orangered;
+    background-image: linear-gradient(#C4E538,#A3CB38);
+}
+section{
+    display: flex;
+}
+.food-banner{
+    background-image: url(images/Frame1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+    margin: 10px 0px;
 }
