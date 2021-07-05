@@ -49,6 +49,7 @@ h1{
 }
 .recipies-item{
     background-color: #dfe4ea;
+    padding-bottom: 80px;
 }
 .my-recipies{
     text-align: center;
@@ -61,6 +62,7 @@ h1{
 .food-item{
     display: flex;
     padding: 0px 70px;
+     
     
 }
 .one-third-width{
@@ -78,4 +80,17 @@ h1{
 }
 .one-third-width h1{
     font-size: 30px;
+}
+.footer{
+    background-color: #1e272e;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.footer h1{
+    font-size: 30px;
+    color: #57606f;
+}
+.footer p{
+    color: darkgrey;
 }
