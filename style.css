@@ -11,7 +11,7 @@ h1{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
-    padding: 10px 40px;
+    padding: 20px 40px;
     color: white;
     border-radius: 50px;
     font-weight: 700;
@@ -21,19 +21,61 @@ h1{
     color: orangered;
     background-image: linear-gradient(#C4E538,#A3CB38);
 }
-section{
-    display: flex;
-}
+ 
 .food-banner{
+    display: flex;
     background-image: url(images/Frame1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding: 5%;
+}
+.half-width h1{
+    color: #57606f;
+     font-size: 35px;
 }
 .half-width img{
     width: 80%;
     margin: 10px 0px;
+}
+.about-me{
+    display: flex;
+    background-image: url(images/Frame5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+.recipies-item{
+    background-color: #dfe4ea;
+}
+.my-recipies{
+    text-align: center;
+    padding: 30px 25% 20px 25%;
+}
+.my-recipies h1{
+     color: #57606f;
+     font-size: 35px;
+}
+.food-item{
+    display: flex;
+    padding: 0px 70px;
+    
+}
+.one-third-width{
+    background-color: white;
+    width: 33%;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px  0px 20px 10px #888888;
+}
+.one-third-width img{
+    width: 100%;
+    border-radius: 20px;
+    height: 230px;
+}
+.one-third-width h1{
+    font-size: 30px;
 }
