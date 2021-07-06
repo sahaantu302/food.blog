@@ -25,11 +25,11 @@ li a{
 .logo{
     margin-right: 300px; 
     font-size: 25px;
-    border: 2px solid black;
     border-radius: 50px;
-    background-image: linear-gradient(orange,tomato);
-    box-shadow: 0 0 20px 10px;
+    box-shadow: 0 0 20px 10px tomato;
      font-weight: 700;
+     color: white;
+     background-color: tomato;
 }
 .search-bar{
     margin-left: 280px;
