@@ -89,6 +89,7 @@ h1{
 .recipies-item{
     background-color: #dfe4ea;
     padding-bottom: 80px;
+     
 }
 .my-recipies{
     text-align: center;
@@ -119,6 +120,48 @@ h1{
 }
 .one-third-width h1{
     font-size: 30px;
+}
+.contact-part{
+    background-image: url(images/Frame2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+     
+}
+.contact-part h1{
+    text-align: center;
+    font-size: 30px;
+    color: #57606f;
+}
+.contact-form{
+    overflow: hidden;
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+  
+
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    border: 0px; 
+    background-color: #111;
+    padding: 20px 40px;
+     color: #ddd;
+}
+.contact-form-btn{
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.contact-form-btn:hover{
+    color: orangered;
+    background-image: linear-gradient(#C4E538,#A3CB38);
 }
 .footer{
     background-color: #1e272e;
